@@ -11,7 +11,7 @@ body {
 }
 
 hr {
-    border: 2px solid #407BFF;
+    border: 1px solid #407BFF;
     width: 60px;
     margin-bottom: 30px;
 }
@@ -143,5 +143,73 @@ p {
     .posledni {
         margin-bottom: 0px;
     }
+}
 
+@media screen and (min-width: 1100px) { 
+    
+    section {
+        max-width: 1040px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .prvni,
+    .druha {
+        flex-direction: row-reverse;
+    }
+
+    h1,
+    h2,
+    hr,
+    p,
+    .hlavicka {
+        text-align: left;
+    }
+
+    hr {
+        margin-left: 0;
+    }
+
+    .dobrodruzstvi {
+        margin-right: 20px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    .sluzby {
+        max-width: 550px;
+    }
+
+    .cestovka,
+    .namiste {
+        max-width: 430px;
+    }
+
+    .box {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+
+    .posledni {
+        margin-right: 0;
+    }
+
+    .uvodnifoto,
+    .hlavicka {
+        max-width: 490px;
+    }
+
+    .uvodnifoto img {
+        max-width: 425px;
+        text-align: center;
+    }
+
+    .treti {
+        margin-bottom: 60px;
+    }
 }
