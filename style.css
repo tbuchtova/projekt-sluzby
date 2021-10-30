@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html {box-sizing: border-box;}
+*, ::after, ::before {box-sizing: inherit;}
+
+body {
+    background-color: #FAFAFA;
+    font-family: Montserrat;
+}
+
+hr {
+    border: 2px solid #407BFF;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+p {
+    font-size: 14px;
+    color: #8B8B8B;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hlavicka {
+    text-align: center;
+}
+
+.tlacitko {
+    display: inline-block;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.dobrodruzstvi {
+    background-color: #407BFF;
+    border: #407BFF;
+}
+
+.pohoda {
+    background-color: #8B8B8B;
+    border: #8B8B8B;
+}
+
+.box {
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: #407BFF1F 4px 6px 10px;
+    margin: 15px 20px;
+    align-items: center;
+}
+
+.box p {
+    text-align: left;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-block-start: 0;
+}
+
+.box img {
+    margin: 20px;
+}
+
+.uvodnifoto {
+    max-width: 100%;
+    margin: 60px 75px 40px 75px;
+    text-align: center;
+}
+
+.posledni {
+    margin-bottom: 60px;
+}
