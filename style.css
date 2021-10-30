@@ -29,9 +29,11 @@ h2 {
 }
 
 p {
+    max-width: 460px;
     font-size: 14px;
     color: #8B8B8B;
     text-align: center;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 
@@ -40,18 +42,19 @@ p {
 }
 
 .tlacitko {
-    display: inline-block;
+    display: table;
     text-align: center;
+    margin: 0 auto;
     color: #FFFFFF;
     font-size: 14px;
     padding: 10px 30px;
     border-radius: 50px;
-    margin-bottom: 10px;
 }
 
 .dobrodruzstvi {
     background-color: #407BFF;
     border: #407BFF;
+    margin-bottom: 10px;
 }
 
 .pohoda {
@@ -85,6 +88,60 @@ p {
     text-align: center;
 }
 
+.uvodnifoto img {
+    max-width: 100%;
+}
+
 .posledni {
     margin-bottom: 60px;
+}
+
+@media screen and (min-width: 640px) {
+    .tlacitko {
+        display: inline;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+
+    p {
+        max-width: 550px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .dobrodruzstvi {
+        margin-right: 30px;
+    }
+
+    .sluzby {
+        display: flex;
+        flex: 1 1 calc(100% / 3);
+        justify-content: space-evenly;
+    }
+
+    .box {
+        margin: 0px 10px;
+        display: block;
+        text-align: center;
+    }
+
+    .box p {
+        text-align: center;
+        margin: 20px 15px;
+    }
+
+    .box img {
+        margin-top: 40px;
+    }
+
+    .delegati {
+        margin-bottom: 80px;
+    }
+
+    .posledni {
+        margin-bottom: 0px;
+    }
+
 }
