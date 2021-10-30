@@ -30,7 +30,7 @@ h2 {
 
 p {
     max-width: 460px;
-    font-size: 14px;
+    font-size: 16px;
     color: #8B8B8B;
     text-align: center;
     margin: 0 auto;
@@ -72,10 +72,11 @@ p {
 }
 
 .box p {
+    font-size: 13px;
+    margin: 0;
     text-align: left;
     margin-right: 30px;
     margin-bottom: 0;
-    margin-block-start: 0;
 }
 
 .box img {
@@ -97,6 +98,10 @@ p {
 }
 
 @media screen and (min-width: 640px) {
+    .uvodnifoto {
+        margin-bottom: 30px;
+    }
+    
     .tlacitko {
         display: inline;
     }
@@ -112,7 +117,7 @@ p {
     }
 
     .dobrodruzstvi {
-        margin-right: 30px;
+        margin-right: 20px;
     }
 
     .sluzby {
@@ -201,7 +206,16 @@ p {
 
     .uvodnifoto,
     .hlavicka {
-        max-width: 490px;
+        width: 490px;
+    }
+
+    .hlavicka {
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    .uvodnifoto {
+        margin: 60px 0 0 auto;
     }
 
     .uvodnifoto img {
